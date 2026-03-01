@@ -16,3 +16,4 @@ class Solution(object):
         for i in range(n - quarter):
             if arr[i] == arr[i + quarter]:
                 return arr[i]       
+            
